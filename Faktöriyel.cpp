@@ -42,5 +42,5 @@ else {
     cout << "Lütfen 0 ve 0'dan büyük bir tam sayı giriniz" << endl;
 }
   
-  
+ return 0; 
 }
