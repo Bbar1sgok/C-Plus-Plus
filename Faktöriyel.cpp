@@ -6,10 +6,10 @@ using namespace std;
 int main()
 {
        
-    // Yerel Dil Tanımlaması
-    setlocale(LC_ALL, "Turkish");
+// Yerel Dil Tanımlaması
+setlocale(LC_ALL, "Turkish");
 
-    int girilenSayi;
+int girilenSayi;
 unsigned long long sonuc = 1; // Faktöriyel büyük sayılara ulaşabileceği için unsigned long long kullanıldı
 
 while (true) {
