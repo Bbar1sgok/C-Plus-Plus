@@ -15,14 +15,14 @@ int main()
      int girilenSayi, sayininModu;
      char cikis;
 
-     cout << "Sayının tek mi çift mi olduğunu belirleme aracı " << endl << endl;
+     cout << "Sayının tek mi çift mi olduğunu belirleme aracı: " << endl << endl;
      cout << "Lütfen sorgulamak istediğiniz sayıyı giriniz: " << endl;
 
      cin >> girilenSayi;
 
      if (cin.fail()) {
 
-         cout << "Lütfen pozitif bir tam sayı giriniz" << endl << endl;
+         cout << "Lütfen pozitif bir tam sayı giriniz:" << endl << endl;
          cin.clear();
          cin.ignore(INT_MAX, '\n');
          continue;
