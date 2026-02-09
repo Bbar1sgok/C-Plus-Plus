@@ -14,7 +14,7 @@ int main()
 
    while (true) {
 
-       cout << "Kdv tutarını ve kdv li  fiyatını hesaplama aracı (Rakam olarak giriş yapınız)" << endl << endl;
+       cout << "Kdv tutarını ve kdv li  fiyatını hesaplama aracı (Rakam olarak giriş yapınız):" << endl << endl;
 
        cout << "Lütfen ürünün temel fiyatını giriniz: " << endl;
        cin >> temelfiyat;
