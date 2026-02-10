@@ -21,7 +21,7 @@ int main()
 
        if (cin.fail()) {
 
-           cout << "Lütfen rakam giriniz, sayı veya farklı bir sembol değil" << endl << endl;
+           cout << "Lütfen rakam giriniz, sayı veya farklı bir sembol değil: " << endl << endl;
            cin.clear();
            cin.ignore(INT_MAX, '\n');
            continue;
