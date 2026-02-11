@@ -45,7 +45,7 @@ int main()
 
      if (cikis == 'h' || cikis == 'H') {
 
-         cout << "Çıkış yapıldı";
+         cout << "Çıkış yapıldı...";
          break;
 
      }
