@@ -32,7 +32,6 @@ int main()
             break; // Standard practice: exit the loop immediately if a divisor is found
         }
     }
-
     
     if (isPrime) {
         cout << inputNumber << " is a prime number.\n";
